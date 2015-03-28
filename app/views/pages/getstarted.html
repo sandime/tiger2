@@ -1,0 +1,15 @@
+
+<div class="jumbotron text-center">
+    <h1>What are your expenses?</h1>
+    <h3>First, we'll figure out your monthly expenses, then we'll get an estimated monthly income and come up with a monthly budget.</h3>
+    <h2>Calculator</h2>
+
+    <div ng-controller="getStartedCtrl as getStarted">
+        <form>
+            <li>rent: <input type="text" ng-model="rent">
+            <li>utilities: <input type="text" ng-model="utilities">
+            <li>Total Expenses <input type="text" value="{{totalExpenses}}">
+                {{totalExpenses}}
+        </form>
+    </div>
+</div>

@@ -1,0 +1,15 @@
+{
+  "name": "tiger2",
+  "version": "1.0.0",
+  "description": "version 2 tigerapp",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "sherri",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.12.3"
+  }
+}
